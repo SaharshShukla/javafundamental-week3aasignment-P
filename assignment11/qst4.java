@@ -15,7 +15,7 @@ public static int binary_To_Decimal(int num) {
 		int remender=temp%10;//geting remender so module by 10
 		temp=temp/10;//getting questiont so divide by 10
 		deci_Num=deci_Num+remender*(int)Math.pow(2,pow_Of_Two++);
-				
+				//2^0+2^1..so on. 
 	}
 	return(deci_Num);
 	
