@@ -25,8 +25,9 @@ public class qst2 {
 		System.out.println("displaying  matrix elements columns wise" );
 		for (int i = 0; i < row; i++) {
 			for (int j = 0; j < cols; j++) {
-				System.out.print( mat[i][j]+" ");
+				System.out.print( mat[j][i]+" ");//to print column wise
 			}
+System.out.println();
 		}
 		
 		
