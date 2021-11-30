@@ -27,7 +27,7 @@ public class qst2 {
 			for (int j = 0; j < cols; j++) {
 				System.out.print( mat[j][i]+" ");//to print column wise
 			}
-System.out.println();
+                  System.out.println();
 		}
 		
 		
